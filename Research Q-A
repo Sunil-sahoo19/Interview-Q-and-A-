@@ -1,0 +1,193 @@
+<!-- 
+1. What is cloud computing? -->
+
+Cloud computing means storing, managing, and processing Data on the internet ( cloud) instead of using your own computer.
+
+Simple Example:
+
+When you upload photos to Google Drive or iCloud,
+→ You’re using cloud computing.
+
+* The files are not on your laptop — they’re stored on Google’s or Apple’s cloud servers.
+
+<!-- Main Services in Cloud Computing: --> 
+
+IaaS (Infrastructure as a Service)
+ Rent servers, storage, and networks.
+Example: AWS EC2, Google Compute Engine
+
+PaaS (Platform as a Service)
+ Developers build and run apps without worrying about hardware.
+Example: Google App Engine, Heroku
+
+SaaS (Software as a Service)
+ Use apps directly through the internet.
+Example: Gmail, Zoom, Microsoft 365 
+
+<!-- Benefits: -->
+Access from anywhere
+Pay only for what you use
+No need for your own server or data center
+Scalable (you can increase storage or power anytime)
+
+Cloud computing means using the internet as your computer — storing files, running apps, and managing data online instead of locally.
+
+
+<!-- 2.What are the features of web sites ? -->
+
+1. User friendly Design 
+.Easy to use and navigate.
+Buttons, menus, and links are clear.
+Looks good on both mobile and computer
+
+2. Fast loading Speed 
+. Pages open Quickly
+. Optimized images and code.
+. Slow websites make users leave.
+
+3. Security
+. Uses HTTPS (lock icon 🔒).
+Protects user data and passwords.
+
+
+4. SEO Friendly (Search Engine Optimization )
+
+Website is easy for Google to find and rank.
+Uses keywords, meta tags, and clean URLs.
+
+5.  Quality Content
+
+Clear text, images, and videos.
+Updated regularly and error-free.
+
+
+<!-- 3. What is LLM ?  -->
+ 
+LLM Stands for ( Large Language Modal )
+
+Definition:
+An LLM is a type of artificial intelligence (AI) program that can understand, generate, and work with human language — like English, Hindi, or any other.
+It’s trained on a huge amount of text data (like books, articles, and websites) to learn how humans write and talk.
+
+<!-- Example of LLMs: -->
+
+ChatGPT
+Google Gemini
+Claude
+Meta’s LLaMA
+
+ <!-- Real-World Uses: -->
+
+Chatbots 
+Writing emails or documents
+Translating languages
+Coding help
+Summarizing long texts
+Customer support
+
+<!-- IN Short  -->
+ An LLM is a smart computer program that can read, write, and understand language — almost like a human.
+
+
+<!-- 4. what is vibe coding ? -->
+
+
+You describe your idea in plain language or prompts (e.g., with a large language model like GPT‑4). 
+The AI generates much of the actual code for you. 
+
+
+<!-- Important to know (the pros & cons): -->
+
+Pros.
+
+You can build faster and with less manual coding. 
+Great for prototypes, quick tools, or for beginners who don’t know all the syntax.
+
+Cons. 
+
+The generated code might be less understandable or harder to maintain
+It can introduce bugs or security issues if not reviewed.
+
+
+<!-- 5. what is micro service ? -->
+
+Microservices = Small, independent parts of a big application that work together through APIs.
+
+<!-- Real-World Example: -->
+
+Netflix uses microservices for streaming, recommendations, payments, etc.
+Amazon uses them for orders, payments, delivery tracking.
+
+
+<!-- 6. What is AWS , Lambda , Kinesis ?  -->
+
+AWS = Amazon Web Services
+AWS is a cloud computing platform by Amazon.
+
+<!-- It provides online services that let you: -->
+
+Store data 
+Run code or applications
+Host websites 
+Use databases 
+And many more....
+
+<!-- Benefits of AWS: -->
+
+ No need to buy servers
+ Pay only for what you use
+ Scalable — handles 10 users or 10 million
+ Very secure
+ Used by big companies like Netflix, Airbnb, Amazon, Swiggy, and Zomato
+
+<!-- AWS Lambda -->
+
+Definition:
+
+AWS Lambda is a serverless computing service from Amazon Web Services (AWS).
+It lets you run your code without managing any servers.
+
+You just write your Python code 
+and AWS runs it automatically only when needed.
+
+<!-- When to Use AWS Lambda: -->
+
+Automatically resize an image when it’s uploaded 
+Send email notifications 
+Process payments 
+Trigger small background tasks
+Create APIs using services like API Gateway + Lambda
+
+<!--  Advantages: -->
+
+ No need to manage servers
+ Pay only for use
+ Automatically scales
+ Easy to use with Python, Node.js, Java, etc.
+
+
+ <!-- What is AWS Kinesis? -->
+
+ Definition:
+
+AWS Kinesis is used to handle real-time data streams — meaning data that is continuously flowing.
+
+<!-- Example: -->
+
+A live stock price app 
+A live chat system 
+A live video analytics feed 
+All sending lots of data every second!
+
+Kinesis collects that fast-moving data, processes it, and sends it to where it’s needed (like a database or dashboard) in real time.
+
+<!-- Simple Use Case: -->
+
+Netflix uses Kinesis to track what users are watching right now
+Amazon uses it to track millions of sales per second
+
+
+<!-- 7. What do you mean by AI, Perplexity, Chatgpt, Grok Ai ?  -->
+
+AI Means machines or computer that can think, Learn and make decisions like Humans.
+AI is the science behind intelligent machines, chatgpt and grok  Ai are chatbots that use LLMs to understand and talk like humans, While perplexity Ai is an Ai-powered search engine that answers using real data and source.
