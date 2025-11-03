@@ -1,0 +1,59 @@
+1. # What is Vulnerability
+
+A. Definition of Vulnerability:
+
+A vulnerability is a weakness or flaw in a system, software, network, or even human process that 
+can be exploited by attackers to cause harm or gain unauthorized access.
+
+* A vulnerability is a security gap that allows hackers to break into a system, steal data, or damage operations.
+
+Examples:
+
+ Software Bug — a programming mistake that lets someone bypass login.
+
+ Unpatched System — outdated software without security updates.
+
+ Weak Passwords — like “12345” or “password”.
+
+ Phishing Links — users clicking unsafe links due to lack of awareness.
+
+ Open Network Ports — allowing outsiders to access a system.
+
+
+2. What is SIT Testing ?
+
+A. The SIT Stands for SIT = System Integration Testing. 
+
+*Meaning
+It’s a type of testing done after individual modules are tested (after unit testing) to check 
+how all modules work together as a system.
+
+
+Purpose:
+
+*Data flows correctly between modules
+*Interfaces between components work properly
+*No issues occur when different parts are combined
+
+
+3. what is SAT Testing ?
+
+* The SAT Stands for SAT = System Acceptance Testing
+
+* Meaning 
+
+This is done after SIT, and it’s the final level of testing before delivering the system to the client.
+It checks whether the entire system meets the user’s requirements.
+
+main Purpose:
+* To ensure the system works in real-world conditions as expected by the end user or client.
+
+Example:
+
+After SIT passes, the client or testers perform SAT to:
+
+*Check if all business needs are met
+*Verify performance, usability, and reliability
+*Ensure the system is ready for deployment.
+
+
