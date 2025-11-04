@@ -1,0 +1,44 @@
+@1. What is UML ?
+
+UML = Unified Modeling Language
+UML is like a drawing language for programmers
+it helps you plan and design software using diagrams instead of only writing code.
+
+Think of it like blueprints for a building 
+before building a house, you draw a plan.
+Similarly, before writing a program, developers use UML to draw how the system will work.
+
+Why We Use UML
+
+* To understand and explain how the system works
+* To plan before writing code
+* To find problems early
+* To communicate ideas between developers, designers, and clients
+
+IN Short<<<
+UML = A visual way to plan and explain how software works
+Like a map for developers before they start coding
+
+
+@2. What is schema ?
+
+* Definition  
+
+A schema is the structure of a database — it defines tables, columns, data types, and relationships between them.
+
+A Schema is like a blueprint or structure that defines how data is organized in a database.
+Think of it like a plan of a house 
+it shows where each room (table) is, what’s inside it (columns), and how they connect.
+
+Types of Schemas (in databases):
+
+*Logical Schema → shows structure (tables, columns, relationships)
+*Physical Schema → shows how data is stored on the system
+*View Schema → shows how users see data
+
+
+@3. What is DROP TABLE in (SQL) ?
+
+The DROP TABLE command is used to delete an entire table from the database —
+including all its data, structure, and relationships.
+
