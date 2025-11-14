@@ -1,0 +1,54 @@
+#1. Difference b/w port & socket. ?
+
+--> PORT
+
+*A port is just a number.
+*It helps your computer know which application or service the data should go to.
+
+Example:
+
+ *Port 80 → Websites (HTTP)
+ *Port 443 → Secure websites (HTTPS)
+ *Port 3306 → MySQL database 
+
+
+ --> SOCKET
+
+*A socket is a combination of:
+
+  *IP Address
+  *Port Number
+  *Protocol (TCP/UDP)
+
+*Used to create a real connection between devices.
+*It allows two computers to send/receive data.
+
+
+#2. What is WebSocket?
+
+WebSocket is a technology that allows the client (browser) and server to communicate with each other continuously in real time.
+
+--> Normally (HTTP request-response):
+
+Client sends a request
+Server sends a response
+Connection closes
+
+--> With WebSocket:
+
+Client and server open a single connection
+They can send messages to each other anytime
+Connection stays open
+No need to request again and again
+
+
+--> Where WebSockets are used?
+
+ *Chat applications
+ *Online gaming
+ *Live score updates
+ *Stock price updates
+ *Multiplayer apps
+ *Real-time notifications
+
+ 
