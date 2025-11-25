@@ -1,0 +1,67 @@
+#1Q. What is Fast Api And why is it popular ? 
+
+--> Defination
+
+FastAPI is a modern, high‑performance Python web framework for building APIs quickly and efficiently.
+It is designed around Python type hints, which allow automatic validation
+
+* Framework Type: FastAPI is a web framework specifically for creating HTTP-based APIs in Python.
+
+
+#2Q. Why the fast Api is popular ?
+
+Fast Api is a Tool in Python that helps you to building websites and Apps that talk each other through APIs 
+
+why do people like It ? 
+
+- Fast     -> It runs very quickly, so apps can handle lots of users.
+- Easy     -> We write less code, And its Simple to undestand. 
+- Smart    -> Its Smart because it check the code automatilcally
+- Helpfull -> It creates ready‑made documentation for your API without extra work.
+
+
+#3Q. what is the Differents between Flask and fast Api ?
+
+Flask → Think of it like a basic toolbox. You can build almost anything, but you have 
+to add your own tools (validation, docs, async support).
+
+FastAPI → More like a smart toolbox. It already has modern tools built in, so you can build
+ APIs faster, with fewer bugs, and better performance.
+
+
+--'Flask'is used for lightweight and flexible and for the small projects 
+-- 'FastAPI' is used for the huge projects as will as small projects 
+
+#4Q. What is the role of pydantic's role in fast api ?
+
+Pydantic is a Python library used for data validation and parsing, built around Python type hints.
+ It ensures that the data your program receives (like from an API or user input) is the correct type and structure before being processed
+
+Example code:
+
+from pydantic import BaseModel
+
+class User(BaseModel):
+    name: str
+    age: int
+
+# Valid input
+user = User(name="Alice", age=25)
+
+# Invalid input → raises error
+user = User(name="Alice", age="twenty")
+
+-->  In Simple Words
+
+Pydantic is like a data gatekeeper:
+
+It checks that data is correct.
+It fixes data when possible (e.g., "25" → 25).
+It explains errors clearly when data is wrong.
+That’s why FastAPI relies on it so heavily—it makes APIs safer and easier to build.
+
+
+
+
+ 
+
